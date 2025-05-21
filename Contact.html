@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="tyt-removebg-preview.png" rel="icon">
+    <style>
+        a{
+            padding:5px;
+            text-decoration: none;
+            color:black;
+            font-size: 20px;
+        }
+        a:hover{
+            color:blue
+        }
+        section{
+            padding:5rem 9%;
+        }
+        .wrapper1{
+            margin-left: auto; margin-right: auto;top:50%;left:50%;width:100%;max-width: 550px;padding:30px;
+            border-radius: 5px;box-shadow: 0 0 10px rgba(0,0,0,0.6);
+        }
+        .wrapper1 .title1 h1{
+            color:green;text-align: center; margin-bottom: 25px; font-size: 3.5rem;
+        }
+        .contact-form{
+            display:flex;
+        }
+        .input-fields{
+            display:flex;flex-direction: column;margin-right:4%;
+        }
+        .input-fields, .msg{
+            width:60%;
+        }
+        .input-fields .input, .msg textarea{
+            margin:10px 0; background: transparent; border:0px; border-bottom: 2px solid #5f66618f;
+             padding:10px;color:black; width:100%
+        }
+        .msg textarea{
+            height: 189px;
+        }
+        .msg .btn1{
+            margin-top: 1rem;
+            display: inline-block;
+            border:1px solid green;
+            color:black;
+            cursor:pointer;
+            font-size: 1.5rem;
+            border-radius: 40px;
+            background: none;
+            padding:1rem 3rem;
+        }
+        .btn1 button[type="submit"]{
+            background-color: transparent;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        form{
+            width: 90vw;
+            margin:0 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 0.2rem solid white;
+            display:flex;
+            align-items: center;
+        }
+        form input{
+            width:100%;
+            color:aliceblue;
+            background: none;
+            padding-right: 2rem;
+            font-size:1rem;
+        }
+        form input ::placeholder{
+            color:#aaa;
+        }
+        form textarea{
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body style="background:#e2cfb6">
+    <div style="float:right">
+        <a href="index.html">Home</a>
+        <a href="Travel.com_adventures.html">Adventures</a>
+        <a href="pac.html">Packages</a>
+        <a href="Contact.html">Contacts</a>
+        <img src="images__3_-removebg-preview.png" width="30px" height="30px" style="padding-top: 37px;">
+    </div>
+    <div style="float:left">
+        <h1 style="padding-left: 50px;font-size: 30px;font-family:cursive;"><img src="tyt-removebg-preview.png" width="30px" height="30px">Travel.com</h1>
+    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <section class="contact">
+        <div class="wrapper1">
+            <div class="title1"><h1>Contact Us</h1></div>
+            <div class="contact-form"><form name="form1" action="#" method="post">
+            <div class="input-fields">
+                        
+                    
+                        <input class="input" type="text" name="name" placeholder="Name" required/>
+                        
+                    
+                    
+                    
+                        <input class="input" type="email" name="email" placeholder="Email Address" required/>
+                    
+                        
+                    
+                        <input type="phone" class="input" name="phone" placeholder="Phone Number" required/>
+                        <input type="text" class="input" name="subject" placeholder="Subject" required/>
+                    </div>
+                    <div class="msg">
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <br>
+                        <div class="btn1">
+                            <button type="submit">Send</button>
+                        </div>
+            </form></div>
+        
+        </div>
+    </section>
+</body>
+</html>

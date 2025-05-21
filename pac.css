@@ -1,0 +1,50 @@
+a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;}
+a:hover{
+    color:blue;
+    cursor:pointer;
+    }
+    .btn{
+        width: 110px;
+        height: 45px;
+        font-size: 16px;
+        border-radius: 3rem;
+        background: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .btn:hover{
+        word-spacing: 0.2rem;
+        letter-spacing: 0.9px;
+        font-size: 18px;
+        background-color: rgb(235,14,62);
+        border-radius: 0.3rem;
+        cursor:pointer
+    }
+    .g1 .g2{
+        display: flex;
+        height:auto;
+        column-gap:10px;
+    }
+    .g1 .g2 .g3{
+        padding:2rem; text-align: center; border:0.1rem solid black; border-radius: 1rem;
+    }
+    .g1 .g2 .g3 h3{
+        color:black; font-size: 2rem; padding:0.6rem 0
+    }
+    .g1 .g2 .g3 .ce{
+        color:black; padding:0.2rem 0;text-align: center;
+    }
+    .g1 .g2 .g3:hover>*
+        {
+            box-sizing: border-box; text-decoration: none; text-transform: capitalize;text-align: center; color: white;
+        }
+    .g1 .g2 .g3 img{
+        width:8rem;
+        height:8rem;
+    }
+    .g1 .g2 .g3:hover{
+        background: coral;
+    }
