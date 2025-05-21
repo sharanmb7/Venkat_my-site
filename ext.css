@@ -1,0 +1,45 @@
+.btn{
+    width: 110px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 3rem;
+    background: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn:hover{
+    word-spacing: 0.2rem;
+    font-size: 18px;
+    background-color: rgb(235,14,62);
+    border-radius: 0.3rem;
+}
+.sec .fec{
+    display: flex;
+    height:auto;
+    column-gap:10px;
+}
+.sec .fec .rec{
+    padding:2rem; text-align: center; border:0.1rem solid white; border-radius: 1rem;
+}
+.sec .fec .rec h3{
+    color:black; font-size: 2rem; padding:1rem 0
+}
+.sec .fec .rec .cec{
+    color:black; padding:0.5rem 0;text-align: center;
+}
+.sec .fec .rec:hover>*
+    {
+        box-sizing: border-box; text-decoration: none; text-transform: capitalize;text-align: center;
+    }
+.sec .fec .rec img{
+    width:10rem;
+    height:10rem;
+}
+a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;}
+a:hover{
+    color:blue}
+
+
